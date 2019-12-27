@@ -17,7 +17,7 @@ public class CreatingThread {
 		thread3.start();
 	}
 
-	static class Worker1 extends Thread {
+	private static class Worker1 extends Thread {
 		@Override
 		public void run() {
 			for (int i = 0; i < 5; i++) {
@@ -26,7 +26,7 @@ public class CreatingThread {
 		}
 	}
 
-	static class Worker2 implements Runnable {
+	private static class Worker2 implements Runnable {
 		public void run() {
 			for (int i = 0; i < 5; i++) {
 				System.out.println("Worker2");
