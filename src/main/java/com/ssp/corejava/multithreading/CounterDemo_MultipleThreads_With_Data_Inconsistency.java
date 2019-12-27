@@ -1,6 +1,6 @@
 package com.ssp.corejava.multithreading;
 
-public class CounterDemo_MutipleThreads {
+public class CounterDemo_MultipleThreads_With_Data_Inconsistency {
 	public static void main(String[] args) throws InterruptedException {
 		Counter counter = new Counter();
 
