@@ -2,7 +2,6 @@ package com.ssp.corejava.multithreading;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Random;
 
 public class WaitNotifyDemo {
 	public static void main(String[] args) {
