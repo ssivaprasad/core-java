@@ -1,8 +1,10 @@
 .idea
-.settings
-.sts4-cache
-target
+*.iml
 
+.sts4-cache
+
+.settings
 .classpath
 .project
-*.iml
+
+target
